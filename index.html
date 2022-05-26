@@ -1,0 +1,30 @@
+<h1>Média Bimestral</h1>
+
+<script>
+    var nome = prompt("Digite seu nome.");
+    
+    console.log("Teste 2");
+    alert("Bem vindo ao nosso super sistema Sr.(a) " + nome );
+
+    var nota1 = prompt("Digite sua primeira nota");
+    var nota2 = prompt("Digite sua segunda nota");
+    var nota3 = prompt("Digite sua terceira nota");
+    var nota4 = prompt("Digite sua quarta nota");
+
+    var soma = ( parseInt (nota1) + 
+                 parseInt(nota2) + 
+                 parseInt(nota3) + 
+                 parseInt(nota4));
+
+    var media = soma / 4;
+
+    document.write("A soma das suas notas é " + soma + "<br>");
+    document.write("A média das suas notas é " + media + "<br>");
+
+        if(media < 60) {
+            document.write("Estude mais, você está REPROVADO! :(")
+        } else {
+            document.write("Parabéns, você está APROVADO! :)")
+        }
+    
+</script>

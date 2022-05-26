@@ -1,0 +1,15 @@
+<script>
+
+    var numero = prompt ("Digite o numero que deseja multiplicar");
+    var multiplicador = prompt ("Digite ate quanto quer multiplicar");
+    
+    calcularTabuada(numero,multiplicador);
+    
+
+    function calcularTabuada(numero, multiplicador)    {
+        for(var i = 0; i < multiplicador; i++){
+        document.write(numero + " x " + i + " * " +(numero * i) + "<br>");
+    }
+    }
+
+</script>
